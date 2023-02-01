@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #071936;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+
+header {
+    margin-top: 30px;
+    margin-left: 590px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon {
+    margin-right: 5px;
+}
+
+section {
+    max-width: 990px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 50px;
+}
+
+.forms input,
+button {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.forms button {
+    width: 205px;
+    margin-top: 5px;
+}
+
+@media (max-width: 1000px) {
+    header {
+        margin: 10px 0 20px 90px;
+        padding: 20px;
+    }
+
+    section {
+        margin: 0;
+        padding: 5px;
+        max-width: 400px;
+    }
+}
