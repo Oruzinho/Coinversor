@@ -8,4 +8,3 @@
 📝 - O Usuário insere o valor que deseja e o resultado aparece na parte inferior da página.
 
 <br>
-Acesse a página em: Oruzinho.github.io/Coinversor/
